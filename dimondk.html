@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+<meta charset="utf-8">
+<title>
+	Dimond k
+</title>
+<meta http-equiv="pragma" content="nocache"/>
+<meta name="keywords" content="Dimond madechawo, front-end developer, Portifolio, entry-level"/>
+<meta  name="description"  content="spiritual facts"/>
+<base href="index.html"/>
+<link rel="stylesheet" type="text/css" href="animate.css"/>
+<link rel="stylesheet"
+href="https://
+cdnjs.cloudflare.com/ajax/
+libs/font-awesome/4.7.0/css/
+font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="stories.css"/>
+<script type="text/javascript" src="myvue.js"></script>
+<script type="text/javascript" src="router.js"></script>
+<body>
+
+
+<header>
+
+</header>
+
+<transition enter-active-class="animated slideInLeft" leave-active-class="animated slideInLeft">
+<router-view></router-view>
+</transition>
+
+</div>
+
+<br><br>
+<br><br>
+
+
+
+
+<br><br><br>
+
+
+</body>
+
+<script>
+
+	Vue.use(VueRouter)
+
+	// home page template
+
+const home={ template:`<div>
+
+
+</div>`,
+
+data: function () {
+	return {
+		nam:this.nam,
+		email: this.email,
+		message: this.message
+	}
+}
+
+}
+const foods={ template:`<div>
+
+
+</div>`,
+data: function () {
+	return {
+		name:this.name,
+		email: this.email,
+		message: this.message
+	}
+}
+}
+ const facts= {template: `<div>
+
+
+ 	</div>`}
+const marine={ template:`<div>
+
+</div>`}
+
+const death={ template:`<div>
+
+
+
+</div>`}
+
+const idol={ template:`<div>
+
+
+</div>`}
+
+const contact={ template:`<div>
+
+
+</div>`,
+
+data: function () {
+	return {
+		name:this.name,
+		email: this.email,
+		message: this.message
+	}
+}
+
+}
+
+const router= new VueRouter({
+routes:[
+{path:"/",component:home},
+{path:"/foods",component:foods},
+{path:"/facts",component:facts},
+{path:"/marine",component:marine},
+{path:"/idol",component:idol},
+{path:"/death",component:death},
+{path:"/contact",component:contact}
+]
+});
+new Vue({
+router,
+el: "#routes"
+});
+
+
+</script>
+
+
+
+</body>
+</html>

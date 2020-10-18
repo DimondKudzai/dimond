@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+<meta charset="utf-8">
+<title>
+	Dimond k
+</title>
+<meta http-equiv="pragma" content="nocache"/>
+<meta name="keywords" content="Dimond madechawo, front-end developer, Portifolio, entry-level"/>
+<meta  name="description"  content="best website Portifolio"/>
+<base href="index.html"/>
+	<style type="text/css">
+	.masterdiv{
+		box-shadow: 10px 10px 10px black;
+		width: 60%;
+		margin: 0 auto;
+		border: 1px solid grey;
+		font-family: serif;
+		font-weight: bold;
+
+	}
+		
+		.div1{
+			background-color: grey;
+			height: 250px;
+			text-align: center;
+			font-family: serif;
+			font-weight: bolder;
+			color: white;
+			font-size: 25px;
+		}
+		.div2{
+			background-color: white;
+			height: 250px;
+			text-align: center;
+			font-family: serif;
+			font-weight: bold;
+		}
+		.innerBut{
+			width: 60%;
+			height: 60px;
+			background-color: white;
+			border-radius: 15px;
+			border: 1px solid grey;
+			border-color: black;
+			margin: 0 auto;
+			font-size: 25px;
+			font-family: serif;
+			font-weight: bold;
+		}
+		.kaimg{
+			border-radius: 50%;
+			margin-top: -50px
+		}
+			.panel{
+		box-shadow: 10px 10px 10px black;
+		width: 80%;
+		margin: 0 auto;
+		border: 1px solid grey;
+		background-color: purple;
+		height: 100%;
+		text-align: center;
+		color: white;
+		font-size: 38px;
+		font-family: serif;
+		font-weight: bold;
+		color: inherit;
+		text-decoration: none;
+		border-radius: 15px;
+	}
+	a {
+		color: white;
+	}
+	</style>
+<script type="text/javascript" src="myvue.js"></script>
+<script type="text/javascript" src="router.js"></script>
+<body>
+
+
+<header style="text-shadow: 1px 1px 1px purple;">
+	<br><br>
+	<a href="index.html#/panel"><img src="bars.jpg" height="80px" width="80px" class="bars" style="margin-left: +50px; position: fixed;
+position: -webkit-sticky;
+top: 0px;"></a>
+	<table style="margin: 0 auto;">
+    	<tr style="text-align: center;
+		color: grey;
+		font-size: 30px;
+		font-family: serif,Times;
+		font-weight:bolder;">
+    		<td>
+    			<a href="index.html"><img src="dimondk.png" height="200px" width="700px" class="logo" style=" " align="center" style="position: fixed;"></a><br><br><br><br>Hello...my name is Dimond k Madechawo.I'm <br> <b>Front-end</b> website developer.
+    		</td>
+    	</tr>
+    </table>
+</header>
+<div id="routes">
+
+<router-view style="margin-top: +200px" ></router-view>
+
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<div class="last">
+	<table width="80%" style="margin: 0 auto;border: 1px solid grey;border-radius: 15px;">
+		<tr style="text-align: center;">
+			<td><br><br>
+<a href="https://m.facebook.com/Websites-developer-113300083549759">
+<img src="facebook.png" width="100px" height="100px" class="one" style="border-radius: 50%">
+</a>
+
+<br><br><br><br><br><br><br><br><br><br><br><br></td>
+			<td><br><br>
+<a href="https://mobile.twitter.com/DMadechawo">
+<img src="twitter.png" width="100px" height="100px" class="two" style="border-radius: 50%">
+</a>
+<br><br><br><br><br><br><br><br><br><br><br><br></td>
+			<td><br><br>
+<a href="https://wa.me/263783702724?text=Hie%20Dimond%20about%20web%20development">
+<img src="whatsapp.png" width="100px" height="100px" class="three" style="border-radius: 50%"></a>
+				<br><br><br><br><br><br><br><br><br><br><br><br>
+			</td>
+		</tr>
+		
+	</table>
+	
+<div style="text-align: center;
+			font-size: 25px;
+			font-weight: lighter;
+			font-family: serif,Times;
+			margin-top: -150px">
+			<br>
+	&copy2020 Dimond K. <br>
+	All rights reseverd. <br>
+	+263 717992175	
+</div>
+
+
+</div>
+
+
+<br><br><br>
+
+
+</body>
+
+<script>
+
+	Vue.use(VueRouter)
+
+	// home page template
+
+const home={ template:`<div>
+
+<div class="masterdiv">
+	<div class="div1">
+	<br><br>
+"It's fine to celebrate success but it is more important to heed the lessons of failure.":&#160 &#160<b>Bill Gates.</b>
+	</div>
+			<div class="div2">
+             <img src="bill.jpg" width="100px" height="100px" class="kaimg">
+				<br><br><br><br>
+			 <router-link to="/aboutMyself"><button class="innerBut">About Myself</button>
+			 </router-link>
+			</div>
+</div>
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div class="masterdiv">
+	<div class="div1">
+	<br><br>
+"May your choices reflect your hopes, <br><br>not your fears.":&#160 &#160<b>Nelson Mandela.</b>
+	</div>
+			<div class="div2">
+             <img src="mandela.jpg" width="100px" height="100px" class="kaimg">
+				<br><br><br><br>
+			 <router-link to="/sentEmail"><button class="innerBut">Email me</button>
+			 </router-link>
+			</div>
+</div>
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="masterdiv">
+	<div class="div1">
+	<br><br>
+"Passion is energy. Feel the power that comes from focusing on what excites you.":&#160 &#160<b>Oprah Winfery.</b>
+	</div>
+			<div class="div2">
+             <img src="Oprah.jpg" width="100px" height="100px" class="kaimg">
+				<br><br><br><br>
+			<router-link to="/otherProject"> <button class="innerBut">Other project</button>
+			</router-link>
+			</div>
+</div>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="masterdiv">
+	<div class="div1">
+	<br><br>
+"Imagination is more important than knowledge.":&#160 &#160<b>Albert Einstein.</b>
+	</div>
+			<div class="div2">
+             <img src="albert.jpg" width="100px" height="100px" class="kaimg">
+				<br><br><br><br>
+				<router-link to="/aboutSite">
+			 <button class="innerBut">About this site</button>
+			 </router-link>
+			</div>
+</div>
+
+</div>`,
+
+data: function () {
+	return {
+		nam:this.nam,
+		email: this.email,
+		message: this.message
+	}
+}
+
+}
+
+const panel={ template:`<div>
+
+<div class="panel">
+<br><br>
+<router-link to="/aboutMyself">About myself</router-link> <br><br><br>
+<router-link to="/sentEmail">Sent Email</router-link><br><br><br>
+<router-link to="/otherProject">Other project</router-link><br><br><br>
+<router-link to="/aboutSite">About this site</router-link><br><br><br>
+<a href="mycv.pdf"> My CV</a><br><br><br>
+	
+ <router-link to="/"><button class="innerBut">Back</button></router-link>
+
+<br><br><br>
+
+</div>
+</div>`}
+
+const aboutMyself={ template:`<div>
+
+<div class="panel" style="background-color:white; color:black;border-radius:15px; border:1px solid white;box-shadow:4px 4px 4px white;">
+<br>
+<img src="dimond.jpg" width="45%" height="400px" style="border-radius:25px;"><br><br>
+
+<div style="background-color:white; color:grey; font-size:25px;font-weight:lighter;font-family:serif;border: 1px solid white;">
+From the moment i read my first html book, i knew i had discovered my inner being.What started off as a hobby soon developed into a way of life.Born in Harare Zimbabwe 24 years ago, <br>Curiosity and Imagination have always been my biggest drivers.<br><br>
+From Crime investigation shows, reality shows and Astronomy, Science owns the biggest part of obsessions.Web development gave me a chance to express my self both artisticly and scientifically,hence my choice to specialise in the front-end side of development.<br><br>
+
+My journey as self taught web developer started back in 2017 and it has been more than an adventure.
+<br><br><br><br><br><br><br><br>
+
+
+</div>
+	
+ <router-link to="/"><button class="innerBut" style="background-color: blue; color: white;">Back Home</button></router-link>
+
+</div>
+
+</div>`}
+
+const otherProject={ template:`<div>
+
+<div class="panel" style="background-color:white;font-weight:lighter;"><br><b><u>My last Project.</u></b>
+<br><br><br>
+<table width="100%">
+<tr>
+<td><img src="maths.png" width="40%" height="300px" style="border-radius:25px;"><br><br>
+<a href="https://dimondkudzai.github.io/mathstool/index.html" style="color:blue;"> Maths tool</a>
+</td>
+<td><!--<img src="untold.jpg" width="40%" height="300px" style="border-radius:25px;"><br><br>
+<a href="#" style="color:blue;">Untold stories</a>-->
+</td>
+</tr>
+</table>
+<br><br>
+
+ <router-link to="/"><button class="innerBut">Back</button></router-link>
+
+<br><br><br>
+
+</div>
+
+</div>`}
+
+const aboutSite={ template:`<div>
+
+<div class="panel" style="background-color:white;font-weight:lighter;">
+<br><br>
+<ul>
+Feedback:<li>
++263 71792175
+</li>
+<li>
+<a href="mailto:diamondkudzai70@gmail.com" style="color:blue;">diamondkudzai70@gmail.com</a>
+</li>	
+</ul>
+<br>
+&copy2020-Dimond k Productions.<br><br><br>
+<table width="100%">
+<tr>
+<td>
+<img src="mylogo.jpg" height="200px" width="400px" class="logo" style=" ">
+</td>
+<td>
+<img src="dimondk.png" height="200px" width="400px" class="logo" style=" ">
+</td>
+</tr>
+</table>
+ <router-link to="/"><button class="innerBut">Back</button></router-link>
+
+<br><br><br>
+
+</div>
+
+</div>`}
+
+const sentEmail={ template:`<div>
+
+<div class="panel" style="background-color:white;font-weight:lighter;" id="myform"><br><b><u>Sent Email.</u></b>
+<br><br><br>
+
+<form action="mailto:diamondkudzai70@gmail.com" method="post" enctype="multipart/form-data" name="form1" style="text-align:left;margin-left:40px;">
+
+Name:&#160 &#160 <input type="text" style="border-radius:15px;box-shadow: 2px 2px 2px black;width:40%; height:40px;font-size:24px;" v-model="name" required=""><br><br>
+
+Email:<input type="text" style="border-radius:15px;box-shadow: 2px 2px 2px black;width:50%; height:40px;margin-left:+50px;font-size:24px;" name="email" v-model="email" @input="validate">
+
+<em style="color:red;text-align:right;font-size:24px;text-align:right;">{{warn}}</em>
+
+<br><br>
+Message:&#160&#160<textarea rows="10" cols="25" style="border-radius:15px;box-shadow: 2px 2px 2px black;width:40%;font-size:24px;" required="" >
+</textarea>
+<br><br><p style="font-size:28px;"> I woud be very happy to hear from you<b style="color:purple">&#160{{name}}.</b>
+
+<br><br>
+
+
+<button type="submit" name="btn" class="innerBut" style="background-color:blue;color:white;width:30%;margin-left: +150px;opacity:1;">sent</button>
+</p>
+<br><br>
+
+</form>
+
+<br><br>
+
+ <router-link to="/"><button class="innerBut">Back home</button></router-link>
+
+<br><br><br>
+
+</div>
+
+</div>`,
+
+data: function () {
+	return {
+		name:this.name,
+		email: this.email,
+		message: this.message,
+		warn: this.warn
+	}
+},
+methods: {
+	validate: function () {
+		var mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+       if (this.email.match(mailformat)) {
+       	this.warn= ""
+       	document.form1.btn.style="background-color:blue;color:white;width:30%;margin-left: +150px;opacity:1;"
+
+       	document.form1.btn.disabled= false;
+       
+       } else {
+       	this.warn= "invalid email."
+     	document.form1.btn.style="background-color:blue;color:white;width:30%;margin-left: +150px;opacity:0.3;"
+
+     	
+       	document.form1.btn.disabled= true
+
+       }
+	}
+
+}
+
+}
+
+const router= new VueRouter({
+routes:[
+{path:"/",component:home},
+{path:"/aboutMyself",component:aboutMyself},
+{path:"/sentEmail",component:sentEmail},
+{path:"/panel",component:panel},
+{path:"/otherProject",component:otherProject},
+{path:"/aboutSite",component:aboutSite}
+]
+});
+new Vue({
+router,
+el: "#routes"
+});
+
+
+</script>
+
+
+
+</body>
+</html>
